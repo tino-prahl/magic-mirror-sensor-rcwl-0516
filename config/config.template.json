@@ -1,0 +1,23 @@
+{
+  "display": {
+    "powerTimeout": 600000
+  },
+  "sensors": {
+    "left": {
+      "gpio": 21,
+      "debounceTimeout": 100
+    },
+    "right": {
+      "gpio": 4,
+      "debounceTimeout": 100
+    },
+    "down": {
+      "gpio": 5,
+      "debounceTimeout": 100
+    },
+    "up": {
+      "gpio": 18,
+      "debounceTimeout": 100
+    }
+  }
+}

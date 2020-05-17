@@ -1,0 +1,28 @@
+{
+  "name": "magic-mirror-sensor-rcwl-0516",
+  "private": true,
+  "author": "Tino Prahl",
+  "license": "MIT",
+  "scripts": {
+    "build": "del-cli dist/ &&  tsc",
+    "dev": "ts-node src/main.ts",
+    "dev:virtual": "ts-node src/main.ts --virtual",
+    "start": "node dist/main.js",
+    "start:virtual": "node dist/main.js --virtual"
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "onoff": "^5.0.1",
+    "shelljs": "^0.8.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/shelljs": "^0.8.8",
+    "@types/socket.io": "^2.1.5",
+    "del-cli": "^3.0.1",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  }
+}
