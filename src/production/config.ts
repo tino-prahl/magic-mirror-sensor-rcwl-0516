@@ -2,7 +2,7 @@ import * as fs from 'fs';
 
 interface ISensorConfig {
   gpio: number;
-  debounceTimeout: number;
+  debounceTimeout?: number;
   throttle?: number;
 }
 
