@@ -5,19 +5,23 @@
   "sensors": {
     "left": {
       "gpio": 21,
-      "debounceTimeout": 100
+      "debounceTimeout": 100,
+      "throttle": 600
     },
     "right": {
       "gpio": 4,
-      "debounceTimeout": 100
+      "debounceTimeout": 100,
+      "throttle": 600
     },
     "down": {
       "gpio": 5,
-      "debounceTimeout": 100
+      "debounceTimeout": 100,
+      "throttle": 600
     },
     "up": {
       "gpio": 18,
-      "debounceTimeout": 100
+      "debounceTimeout": 100,
+      "throttle": 600
     }
   }
 }
